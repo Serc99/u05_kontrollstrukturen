@@ -1,5 +1,5 @@
 // u05_kontrollstruktur
-// auf5.03
+// auf5.04
 
 public class Erfolg
 {
