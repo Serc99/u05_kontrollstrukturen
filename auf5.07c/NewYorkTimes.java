@@ -24,8 +24,6 @@ public class NewYorkTimes
 
             System.out.println();
          }
-
-         System.out.println();
       }
    }
 }
