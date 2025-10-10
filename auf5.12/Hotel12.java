@@ -5,7 +5,7 @@ public class Hotel12
 {
    public static void main(String[] args)
    {
-      int sterne = 2;
+      int sterne = 3;
 
       System.out.println("        /\\        ");
       System.out.println("       /  \\       ");
@@ -23,13 +23,13 @@ public class Hotel12
 
       if(sterne == 1)
       {
-         System.out.println(" |  Hotel  ___  |");
+         System.out.println(" |Absteige ___  |");
       }
       else
       {
          if(sterne == 2)
          {
-            System.out.println(" |  Hotel  ___  |");
+            System.out.println(" |Gasthaus ___  |");
          }
          else
          {
@@ -41,7 +41,7 @@ public class Hotel12
             {
                if(sterne == 4)
                {
-                  System.out.println(" |  Hotel  ___  |");               
+                  System.out.println(" |  Palast ___  |");               
                }
                else
                {
