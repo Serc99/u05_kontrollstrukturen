@@ -1,10 +1,12 @@
-// u05_kontrollstrukturen
-// auf5.11
+// u05_kontrollstruktur
+// auf5.12
 
-public class Hotel
+public class Hotel12
 {
    public static void main(String[] args)
    {
+      int sterne = 2;
+
       System.out.println("        /\\        ");
       System.out.println("       /  \\       ");
       System.out.println("      /    \\      ");
@@ -17,29 +19,36 @@ public class Hotel
 
       System.out.println(" |  ___    ___  |");
       System.out.println(" |  | |    | |  |");
-      System.out.println(" |  ---    ---  |");    
- 
-      int sterne;
-      sterne = 1;
+      System.out.println(" |  ---    ---  |"); 
 
       if(sterne == 1)
       {
-         System.out.println(" |Absteige ___  |");
-      }
-      
-      if(sterne == 2)
-      {
-         System.out.println(" |Gasthaus ___  |");
-      }
-
-      if(sterne == 3)
-      {
          System.out.println(" |  Hotel  ___  |");
       }
-
-      if(sterne == 4)
+      else
       {
-         System.out.println(" |  Palast ___  |");
+         if(sterne == 2)
+         {
+            System.out.println(" |  Hotel  ___  |");
+         }
+         else
+         {
+            if(sterne == 3)
+            {
+               System.out.println(" |  Hotel  ___  |");
+            }
+            else
+            {
+               if(sterne == 4)
+               {
+                  System.out.println(" |  Hotel  ___  |");               
+               }
+               else
+               {
+                  System.out.println(" |  _____  ___  |");
+               }      
+            }
+         }
       }
 
       System.out.println(" |  |   |  | |  |");
