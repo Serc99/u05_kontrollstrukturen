@@ -5,7 +5,6 @@ public class BreakEvenPoint
 {
    public static void main(String[] args)
    {
-
       int verkaufspreisst  = 1500;
       int rohstoffkostenst = 600;
       int arbeitskostenst  = 400;
@@ -29,7 +28,7 @@ public class BreakEvenPoint
          int ueberschuss      = erloes - gesamtkosten;
 
          System.out.println("Stueckzahl: " + i + " Gesamtkosten: " + gesamtkosten + 
-         " Erloes: " + erloes + " Ueberschuss: " + ueberschuss);
+                            " Erloes: " + erloes + " Ueberschuss: " + ueberschuss);
       }
    }
 }
