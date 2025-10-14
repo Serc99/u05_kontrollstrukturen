@@ -29,9 +29,9 @@ public class BreakEvenPoint2
          System.out.println("Stueckzahl: " + i + " Stueckkosten: " + stueckkosten + 
                             " Ueberschuss pro Stueck: " + ueberschuss);
  
-         if(ueberschuss <= 0) 
+         if(ueberschuss < 0) 
          {
-            breakeven = i;
+            breakeven = i + 1;
          }
       }   
          System.out.println();
