@@ -9,7 +9,7 @@ public class BreakEvenPoint3
       int rohstoffkostenst = 600;
       int arbeitskostenst  = 300;
       int fixkosten        = 5000;
-      int breakeven        = -1;
+      int breakeven        = 0;
 
       System.out.println();
       System.out.println("Break-Even-Point");
@@ -28,7 +28,8 @@ public class BreakEvenPoint3
 
          System.out.println("Stueckzahl: " + i + " Stueckkosten: " + stueckkosten + 
                             " Ueberschuss pro Stueck: " + ueberschuss);
- 
+                            
+ 		 // Solange "ueberschuss" < 0 soll er hochzaehlen. Danach nicht mehr.
          if(ueberschuss < 0) 
          {
             breakeven = i + 1;
